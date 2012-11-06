@@ -4,6 +4,7 @@
  * Script de envio de e-mails
  * @author Alisson D. Bovenzo
  * data: 06/11/12
+ * script concluido
  */
 $email 			= 	$_POST["email"]; 
 $headers = "MIME-Version: 1.0\n";
