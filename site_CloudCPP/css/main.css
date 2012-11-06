@@ -1,0 +1,20 @@
+/* 
+
+Garuda - CSS File
+
+USE THIS STYLE SHEET FOR HOME PAGE
+
+*/
+
+
+.main-home{ width:901px; }
+.home-box-two-col{ width:901px; float:left; margin-bottom:40px; }
+.home-two-col1{float:left; width:70%;}
+.home-two-col1 h1{ color:#333; font-size:24px;}
+.home-two-col2{float:left; width:24%; margin-left:2.5%}
+.border-top{ border-top:1px solid #dadada; padding:14px 0px;}
+.three-col1{float:left; width:30%;}
+.three-col2{float:left; width:31%; margin-left:4%}
+.three-col3{float:left; width:31%; margin-left:4%}
+* html .three-col2{float:left; width:30%; margin-left:3%} 
+* html .three-col3{float:left; width:30%; margin-left:3%} 

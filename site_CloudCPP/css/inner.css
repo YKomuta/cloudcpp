@@ -1,0 +1,72 @@
+/* 
+
+Seventh - CSS File
+
+USE THIS STYLE SHEET FOR INNER PAGE
+
+*/
+#header-inner h1{font-size:30px; line-height:32px; padding:32px 0px 0px 45px}
+
+/* PORTFOLIO */
+#maincontent-gallery{padding:30px 25px 30px 25px; position:relative}
+#main-gallery{width:100%;}
+#main-gallery h4{font-size:16px; line-height:14px; margin:10px 0px 5px 0px;}
+#main-gallery ul{list-style-type:none; margin:0px; padding:0px;}
+#main-gallery ul li{list-style-type:none; margin:0px; padding:0px 0px 20px 0px; float:left; width:280px; margin-right:30px;  background-image:none; line-height:20px}
+#main-gallery ul li.nomargin{margin-right:0px;}
+#main-gallery ul li img{margin-bottom:5px; display:block}
+#main-gallery ul li a, #main-gallery ul li a:visited{color:#666;}
+#pagination{clear:left;}
+#pagination a, #pagination a:visited{color:#999;border:solid 1px #f5f5f5; padding:2px 7px; display:block; float:left; margin-right:2px;}
+#pagination a.activeSlide, #pagination a.active{background-color:#dcdcdc; color:#333;}
+.portfoliobg { width:280px; height:120px; float:left; background:url(../images/hover-opacity.png) no-repeat top left; margin-bottom:10px}
+
+/* BLOG */
+.post{margin-bottom:15px;}
+.post h2{margin-bottom:0px; color:#666}
+.post h2 a, .post h2 a:visited, small a, small a:visited{color:#666; text-decoration:none !important;}
+.post h2 a:hover{color:#666; text-decoration:none;}
+.post .imgleft{padding:0px; border:solid 0px #e0e0e0; margin-top:5px;}
+.entry{padding:8px 0px 8px 0px;}
+small{font-size:11px; font-weight:normal;}
+a.more{display:block; padding:10px 0px 0px 0px;}
+.prevnext{}
+.prevnext a, .prevnext a:visited{border:solid 1px #e0e0e0; text-decoration:none !important; padding:2px 4px; margin-right:4px; color:#666; display:inline; float:left;}
+#related-post {padding:10px 0px 0px 0px;}
+#related-post ul, #related-post ul ul{list-style-type:none; margin:0px; padding:0px;}
+#related-post ul li{list-style-type:none; margin:0px; padding:0px; background-image:none; line-height:20px;  float:left}
+#related-post ul li li{float:none;}
+#related-post ul li.list-l{width:334px; padding-right:20px}
+#related-post ul li.list-r{width:251px; border-left:solid 1px #dadada; padding-left:20px;}
+#related-post ul li.list-r li{line-height:30px;}
+#related-post ul li.list-r a, #related-post ul li.list-r a:visited{color:#666;}
+#comment{margin:30px 0px 0px 0px;}
+.commentlist{list-style-type:none; margin:0px; padding:0px;}
+.commentlist li{border-bottom:solid 1px #dadada; padding:10px 0px 10px 0px; clear:both; float:left; width:100% }
+.c-left{float:left; width:120px; text-align:right; padding:0px 20px 0px 0px}
+.c-right{float:left; width:486px;}
+#respond{margin:30px 0px 0px 0px;}
+#comment-form .input{margin:4px 8px 4px 0px; padding:2px 2px; border:solid 1px #e4e4e4; vertical-align:middle}
+#comment-form textarea.input{ margin:4px 8px 4px 0px; padding: 2px 2px; border:solid 1px #e4e4e4; vertical-align:top; width:70%;}
+#description{clear:left; padding:20px 0px 0px 0px}
+#description-left{float:left; width:560px; padding-right:40px;}
+#description-right{float:left; width:290px; padding:40px 0px 0px 0px}
+
+/* CONTACT */
+form{margin:0; padding:0;}
+fieldset{border:0px;}
+#contact_form{margin:0 auto; position:relative}
+label{margin-top:3px;}
+label.sp { width:3px;}
+span.error{color:red;text-align:left;}
+
+#message{ margin-left:0px;}
+#message h2	{}
+#message p{margin:6px 0px; }
+
+input.text-input{ margin:4px 8px 4px 0px; width: 280px; height:15px; padding:5px 2px; border:solid 1px #e4e4e4; vertical-align:middle}
+textarea.text-input{ margin:0px 8px 4px 0px; padding: 5px 2px; border:solid 1px #e4e4e4; vertical-align:top; width:380px;}
+#contact_form input:focus, #contact_form textarea:focus {border:solid 1px #e4e4e4; }
+input.button{ background-color:#dadada; color:#6b6b6b; font-size:12px;  padding:10px 10px 10px 10px; border:0px;  border:0px; margin-top:5px; cursor:pointer;}
+* html input.button, *+html input.button{padding:5px 10px 5px 10px;}
+

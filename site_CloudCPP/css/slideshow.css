@@ -1,0 +1,35 @@
+/* 
+
+Seventh - CSS File
+
+USE THIS STYLE SHEET FOR HOMEPAGE
+
+*/
+
+/* Slide */
+#menu{z-index:10 !important; position:absolute; bottom:-12px; left:0px; padding-bottom:9px; width:958px;}
+#menu ul{list-style-type:none; margin:0px 0px 0px 2px; padding:0px 0px 0px 0px;}
+#menu ul li{list-style-type:none; margin:0px; padding:0px 0px 0px 0px ; float:left;  background-image:url(../images/bg-nav.png); line-height:58px; width:187px; text-align:center; margin:0px 2px 0px 2px }
+#menu ul li a{float:left; line-height:58px; width:187px; text-align:center;}
+#menu ul li .activeSlide{background-image:url(../images/bg-nav-active.png) !important; background-repeat:repeat-x;}
+#menu ul li a:hover{text-decoration:none;}
+* html #menu ul li, * html #menu ul li a{width:186px;}/* ie 6 only */
+#menu ul li a, #menu ul li a:visited{color:#fff; text-transform:uppercase; font-weight:bold; font-size:14px;}
+
+#slide{position:relative; z-index:5;}
+#slide{height:365px; min-height:365px;}
+div[id] #slide {
+   height:auto;
+   }
+.slide-content-left{width:470px; float:left; padding:0px 0px 0px 0px; text-align:right}
+.slide-content-left2{width:460px; float:left; padding:10px 0px 0px 10px;}
+.frameborder{background-image:url(../images/frame.png); background-repeat:no-repeat; width:464px; height:308px;}
+.frameborder img{padding:16px 0px 0px 18px;}
+.slide-content-right{width:438px; float:left; height:200px; overflow:hidden; padding:90px 0px 0px 30px;}
+
+/* slideshow fancy */
+#slideflash{position:relative; height:369px; margin:0 auto; width:950px;}
+#slideshowHolder{top:20px;}
+.ft-title{width:930px; padding:10px; position:relative}
+* html .ft-title{width:930px; padding:10px; bottom:-1px !important; position:relative}/* ie 6 only */
+#glow{bottom:-20px; height:20px; position:relative}
