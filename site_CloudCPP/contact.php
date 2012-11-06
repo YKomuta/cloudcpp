@@ -1,7 +1,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <?php
+/*
+ * Script de envio de e-mails
+ * @author Alisson D. Bovenzo
+ * data: 06/11/12
+ */
 $email 			= 	$_POST["email"]; 
- 
 $headers = "MIME-Version: 1.0\n";
 $headers .="From:". $email ." \n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\n"; 
@@ -10,6 +14,7 @@ $nome 			= 	$_POST["name"];
 $telefone 		= 	$_POST["telefone"]; 
 $assunto		=	$_POST["subject"];
 $obs		= 	$_POST["message"]; 
+#variavel para remover quebras de linha, desativada.
 #$obs 		= 	preg_replace("/(\\r)?\\n/i", "<br/>", $message);
 
 $enviou = mail("contato@cloudcpp.com.br",$assunto, 
