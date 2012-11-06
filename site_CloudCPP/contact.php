@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <?php
-/*
+/* 
  * Script de envio de e-mails
  * @author Alisson D. Bovenzo
  * data: 06/11/12
