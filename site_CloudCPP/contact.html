@@ -1,7 +1,6 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Script-Type" content="text/javascript" /> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="robots" content="index, follow" />
@@ -13,8 +12,7 @@
 <!-- //      Start Stylesheets       // -->
 <!-- ////////////////////////////////// -->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="css/slideshow.css" rel="stylesheet" type="text/css" />
-<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/inner.css" rel="stylesheet" type="text/css" />
 <link href="css/color.css" rel="stylesheet" type="text/css" />
 <link href="css/superfish.css" rel="stylesheet" type="text/css" />
 <!-- ////////////////////////////////// -->
@@ -26,7 +24,7 @@
 <script type="text/javascript">
 	 Cufon.replace('h1') ('h2') ('h3') ('h4') ('h5') ('h6')
 </script>
-<script type="text/javascript" src="js/jqFancyTransitions.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
 <script type="text/javascript" src="js/superfish.js"></script>
 <script type="text/javascript">
 
@@ -45,11 +43,11 @@
 </head>
 <body>
 
-<div id="wrapper">
-<div id="wrapper-nograph">
+<div id="wrapper-inner">
+<div id="wrapper-graph-inner">
 	<div id="container">
 		<div id="top">
-			<div id="logo"><a href="index.html"><img src="images/logo.png" alt="Logotipo da Cloud CPP" style="margin-top:5px" /></a></div><!-- end #logo -->	
+			<div id="logo"><a href="index.html"><img src="images/logo.png" alt="Logotipo da Cloud CPP" style="margin-top:5px" /></a></div><!-- fim #logo -->	
 			<div id="topnavigation">
 			<div id="navfloat">
 				<div class="topnav-box-l">
@@ -57,20 +55,19 @@
 				<div class="topnav-box-r">
 				<div class="topnav-box">
 					<ul class="sf-menu">
-						<li><a class="current" href="index.html">Home</a></li>
+						<li><a  href="index.html">Home</a></li>
 						<li><a href="about.html">Sobre</a>
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">Sobre</a></li>
-								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="portfolio.html">Portfólio</a></li>
 								<li><a href="portfolio-detail.html">Portfolio Detalhado</a></li>
 								<li><a href="full-width.html">Tela Cheia</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact.html">Contato</a></li>
 							</ul>
 						</li>
 						<li><a href="portfolio.html">Portfolio</a></li>
-						
-						<li><a href="contact.html">Contato</a></li>
+						<li><a class="current" href="contact.html">Contato</a></li>
 					</ul>
 				</div><!-- end topnav-box -->
 				</div><!-- end topnav-box-r -->
@@ -80,65 +77,60 @@
 			</div><!-- end #topnavigation -->
 			
 		</div><!-- end #top -->
-		<div id="header">
-			<div id="slideflash">
-				<div id="slideshowHolder">
-				<img src="images/fancy1.jpg" alt="" />
-				<img src="images/fancy2.jpg" alt="" />
-				<img src="images/fancy3.jpg" alt="" />
-				</div><!-- end #slideshowHolder -->
-				<script type="text/javascript">
-				$("#slideshowHolder").jqFancyTransitions({ 
-				width: 950, // width of panel
-				height: 329, // height of panel
-				effect: "zipper", // wave, zipper, curtain
-				position: "curtain", // top, bottom, alternate, curtain
-				strips: 40, // number of strips
-				delay: 5000, // delay between images in ms
-				stripDelay: 50, // delay beetwen strips in ms
-				titleSpeed: 1000, // speed of title appereance in ms
-				titleOpacity: 0.7, // opacity of title
-				direction: "fountain" // left, right, alternate, random, fountain, fountainAlternate
-				});
-				</script>
-				<div id="glow"><img src="images/glow.png" alt="" /></div>
-			</div><!-- end #slideflash -->
-		</div><!-- end #header -->
+		<div id="header-inner">
+			<div class="header-inner-left">
+				<h1>Envie-nos um e-mail!</h1>
+			</div>
+			<div class="header-inner-right">
+				<p class="tagline">Estamos sempre ao seu dispor para tirar todas suas duvidas, antes, durante e após os projetos!</p>
+			</div>	
+		</div><!-- end #header-inner -->
 		<div id="linetop"></div><!-- end #linetop -->
-		<div id="content">
-			<div id="maincontent-full">
-				<div class="main-home">
-
-					<div class="home-box-two-col">
-						<div class="home-two-col1">
-							<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </h1>
-						</div>
-						<div class="home-two-col2">
-							<a href="http://www.templatesquare.com"><img src="images/but_download.png" alt="" /></a>
-						</div>
-					</div>
-					
-					<div class="clr"></div>
-					
-					<div class="three-col1">
-						<div class="border-top">Lorem ipsum <a href="#">Business Recycle</a> <br/>Sit amet, consectetur adipisicing elit</div>
-						<p><img style="padding: 10px; border: solid 1px #f1f1f1; margin-bottom: 5px;" src="images/pic1.gif" alt="" /></p>
-					</div>
-					
-					<div class="three-col2">
-						<div class="border-top">Lorem ipsum <a href="#">Refresh</a> <br/>Sit amet, consectetur adipisicing elit</div>
-						<p><img style="padding: 10px; border: solid 1px #f1f1f1; margin-bottom: 5px;" src="images/pic2.gif" alt="" /></p>
-					</div>
-					
-					<div class="three-col3">
-						<div class="border-top">Lorem ipsum <a href="#">Business Quality</a> <br/>Sit amet, consectetur adipisicing elit</div>
-						<p><img style="padding: 10px; border: solid 1px #f1f1f1; margin-bottom: 5px;" src="images/pic3.gif" alt="" /></p>
-					</div>
-						
-					</div>
-			</div><!-- end #maincontent -->		
-		</div><!-- end #content -->	
-		<div class="clr"></div>
+		<div id="content-inner">
+			<div id="maincontent-inner">
+				<div id="main">
+					<h2>Contate a <span class="tcolor">Cloud CPP</span></h2>
+					<p>A Cloud CPP se coloca a disposição para sanar suas duvidas de segunda a sábado das 08:00 até as 16:00.</p>
+					<div id="contact_form">
+						  <form id="contact" action="contac.php">
+							<fieldset>
+							  <label for="name" id="name_label">Nome</label><br />
+							  <input type="text" name="name" id="name" size="30" value="" class="text-input" />
+							  <span class="error" id="name_error">Por favor, digite seu nome!</span>
+							  <br style="clear:both" />
+							 <label for="email" id="email_label">Email</label><br />
+							  <input type="text" name="email" id="email" size="30" value="" class="text-input" />
+							  <span class="error" id="email_error">Por favor, entre com um e-mail valido!</span>
+							  <span class="error" id="email_error2">Ops! Ainda há algo errado... digite um e-mail válido!</span>
+							  <br style="clear:both" />
+							  <label for="msg" id="msg_label">Digite sua mensagem!</label><br />
+							 <textarea cols="25" rows="8" name="msg" id="msg" class="text-input"></textarea>
+							  <span class="error" id="msg_error">Por favor, digite sua mensagem!</span>
+							  <br />
+							  <input type="submit" name="submit" class="button" id="submit_btn" value="Enviar mensagem"/>
+							</fieldset>
+						  </form><br />
+					</div><!-- end of #contact_form -->
+				</div><!-- end #main -->	
+				<div id="sideright">
+					<div id="sidebar">
+					<h2>Endereço</h2>
+					<ul class="noborder"><li>
+					<p><strong>Endereço para correspondencias</strong><br />
+					Rua Inglês de souza, 143 - Feital<br />
+					CEP: 09330-760 <br />
+					Mauá, SP, Brasil</p>
+					<p><strong>Outros contatos</strong><br />
+					<strong>Email:</strong> <a href="mailto:contato@cloudcpp.com.br">contato@cloudcpp.com.br</a><br />
+					<strong>Website:</strong> <a href="http://www.cloudcpp.com.br">www.cloudcpp.com.br</a><br />
+					<strong>Telefone:</strong> 11 9-5791-7490
+					</p>
+					</li></ul>
+					</div><!-- end #sidebar -->	
+				</div><!-- end #sideright -->	
+				<div class="clr"></div>
+			</div><!-- end #maincontent-inner -->	
+		</div><!-- end #content-inner -->
 		
 		<div id="bottom">
 		<div class="padbottom">
