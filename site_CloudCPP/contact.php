@@ -1,10 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <?php
-/* 
- * Script de envio de e-mails
- * @author Alisson D. Bovenzo
- * data: 06/11/12
- * script concluido
+/*
+ * Script by Alisson D. Bovenzo
+ * at CloudCPP
  */
 $email 			= 	$_POST["email"]; 
 $headers = "MIME-Version: 1.0\n";
@@ -27,14 +25,14 @@ $enviou = mail("contato@cloudcpp.com.br",$assunto,
 <br/>Mensagem: $obs	
 
 ", $headers);
-
+#Caso a var retorne positivo, é redirecionado para o site anterior (site da cloud)
 if ($enviou){
 echo " <SCRIPT LANGUAGE='JavaScript' TYPE='text/javascript'>alert 
 ('$nome, sua mensagem foi enviada com sucesso. ')</SCRIPT>  ";
 echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=http://www.cloudcpp.com.br'>";
 
 }
-
+#Solução implementada para caso haja falha
 else {
 echo " <SCRIPT LANGUAGE='JavaScript' TYPE='text/javascript'>alert 
 ('$nome, não foi possivel enviar sua mensagem, tente novamente')</SCRIPT>  ";
