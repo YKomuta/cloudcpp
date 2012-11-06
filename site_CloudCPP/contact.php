@@ -13,7 +13,7 @@ $assunto		=	$_POST["subject"];
 $obs		= 	$_POST["message"]; 
 #$obs 		= 	preg_replace("/(\\r)?\\n/i", "<br/>", $message);
 
-$enviou = mail("alisson.bovenzo@cloudcpp.com.br",$assunto, 
+$enviou = mail("contato@cloudcpp.com.br",$assunto, 
 " 
 <br/>Nome: $nome
 <br/>E-mail: $email
