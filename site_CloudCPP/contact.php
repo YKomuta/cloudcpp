@@ -3,6 +3,7 @@
 /*
  * Script by Alisson D. Bovenzo
  * at CloudCPP
+ * atualização do e-mail de contato
  */
 $email 			= 	$_POST["email"]; 
 $headers = "MIME-Version: 1.0\n";
