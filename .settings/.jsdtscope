@@ -14,5 +14,6 @@
 	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
 	<classpathentry kind="con" path="com.zend.jsdt.support.jquery.LIBRARY"/>
 	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.FireFoxBrowserLibrary"/>
+	<classpathentry kind="con" path="com.zend.jsdt.support.dojo.LIBRARY"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
